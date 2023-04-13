@@ -1,0 +1,13 @@
+@mixin h1{
+    color: #a7582d;
+    text-align: center;
+    list-style: circle;
+    text-decoration: solid;
+    font-size: 60px;
+
+}
+
+h1{
+    @include h1;
+
+}
