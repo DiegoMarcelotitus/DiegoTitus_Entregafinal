@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 8px;
+    width: 80%;
+    
+
+    .imgGaleria{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        transition: 0.3s ease-in-out;
+        border: solid 1px blue;
+
+        &.imgGaleria:hover{
+            transform: scale(1.8);
+            filter: opacity(4);
+        }
+
+
+
+}
+
+}
+
+
