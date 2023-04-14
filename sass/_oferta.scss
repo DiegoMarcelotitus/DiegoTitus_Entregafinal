@@ -1,0 +1,35 @@
+
+.oferta{
+    width: 80%;
+    width: 250px;
+        height: 250px;
+        text-align: center;
+        color:rgb(5, 5, 5);
+        padding: 38px;
+        border-radius: 2px;
+        border: solid;
+        border-color: rgb(101, 31, 31);
+        font-family: poppins;
+        border-color:#7b513a ;
+        border:solid;
+        border-radius: 29px;
+        background: #908d8d;
+    
+}
+@media(max-width:699px){
+    .ofertadiv{
+        display: row;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    
+}
+
+
+@media(min-width:700px){
+    .ofertadiv{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
