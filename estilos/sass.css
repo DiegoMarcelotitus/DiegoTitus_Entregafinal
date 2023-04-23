@@ -39,6 +39,9 @@
   .logoTipo {
     font-size: 10px;
   }
+  .body {
+    padding: 1px;
+  }
 }
 .imagen-container-inicio {
   display: flex;
@@ -92,7 +95,6 @@
     height: 250px;
     object-fit: cover;
     transition: 0.3s ease-in-out;
-    border: solid 1px blue;
   }
   .container .imgGaleria.imgGaleria:hover {
     transform: scale(1.2);
@@ -114,7 +116,7 @@
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 
 ul {
@@ -124,7 +126,7 @@ ul {
 
 .logo {
   text-align: center;
-  font-size: 3em;
+  font-size: 35px;
 }
 
 .logo span {
@@ -132,11 +134,11 @@ ul {
 }
 
 .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(112, 48, 48, 0.3);
+  box-shadow: rgba(112, 48, 48, 0.3);
 }
 
 .contact-wrapper > * {
-  padding: 1em;
+  padding: 1rem;
 }
 
 .contact-form {
@@ -152,9 +154,15 @@ ul {
   display: block;
 }
 
+@media (max-width: 699px) {
+  .contact-form form {
+    flex-direction: column;
+    display: flex;
+  }
+}
 .contact-form form p {
   margin: 0;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .contact-form form .block {
@@ -163,7 +171,7 @@ ul {
 
 .contact-form form textarea {
   width: 100%;
-  padding: 0.7em;
+  padding: 0.7rem;
   border: none;
   background: none;
   outline: 0;
@@ -175,7 +183,7 @@ ul {
   background: #B70E21;
   border: 0;
   text-transform: uppercase;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .contact-form form button:focus {
@@ -188,24 +196,25 @@ ul {
 /* CONTACT INFO */
 .contact-info h4, .contact-info ul, .contact-info p {
   text-align: center;
-  margin: 0 0 1rem 0;
+  margin: 1rem;
 }
 
 /* LARGE SIZE */
 @media (min-width: 700px) {
   body {
-    padding: 0 4em;
+    padding: 4rem;
   }
   .contact-wrapper {
     display: grid;
   }
   .contact-wrapper > * {
-    padding: 2em;
+    padding: 2rem;
   }
   .contact-info h4,
   .contact-info ul,
   .contact-info p {
     text-align: left;
+    font-size: 15px;
   }
 }
 h1 {
@@ -218,6 +227,9 @@ h1 {
 
 @media (max-width: 699px) {
   h1 {
+    font-size: 15px;
+  }
+  .logo {
     font-size: 15px;
   }
 }
@@ -257,8 +269,7 @@ footer {
 }
 
 .container_foot {
-  margin: 0 auto;
-  box-sizing: 2px;
+  margin: auto;
   border: solid;
   display: flex;
 }
@@ -267,6 +278,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .col {

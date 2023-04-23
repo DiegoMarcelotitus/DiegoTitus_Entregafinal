@@ -28,7 +28,7 @@
         grid-template-columns: auto;
         
     }
-        
+
 }
 
 @media(min-width: 700px) {
@@ -47,7 +47,6 @@
             height: 250px;
             object-fit: cover;
             transition: 0.3s ease-in-out;
-            border: solid 1px blue;
             &.imgGaleria:hover{
                 transform: scale(1.2);
                 filter: opacity(4);
@@ -70,3 +69,4 @@
         padding-right: 50px;
     }
 }
+

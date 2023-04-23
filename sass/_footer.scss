@@ -6,8 +6,7 @@ footer {
 }
 
 .container_foot{
-    margin: 0 auto;
-    box-sizing: 2px;
+    margin:  auto;
     border: solid;
     display: flex;
 }
@@ -16,6 +15,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .col {
