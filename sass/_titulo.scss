@@ -3,7 +3,7 @@
     text-align: center;
     list-style: circle;
     text-decoration: solid;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 
@@ -11,3 +11,12 @@ h1{
     @include h1;
 
 }
+
+@media(max-width:699px){
+    h1{
+        font-size: 15px;
+    }
+}
+
+
+

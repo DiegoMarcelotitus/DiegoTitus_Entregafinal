@@ -1,0 +1,43 @@
+footer {
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container_foot{
+    margin: 0 auto;
+    box-sizing: 2px;
+    border: solid;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(1rem - 20px);
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.redes-sociales li {
+    margin:  10px;
+}
+

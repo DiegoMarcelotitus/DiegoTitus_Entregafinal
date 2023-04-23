@@ -8,7 +8,7 @@
 @import "contac";
 @import "titulo";
 @import "oferta";
-
+@import"footer";
 
 
 ul{
@@ -50,8 +50,11 @@ li{
 
 .footer{
     padding:0;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    display: flex;
 }
 
 
@@ -88,17 +91,12 @@ li{
     height: 400px;
     align-items: center;
 }
-.parrafouno{
+.nosotros{
     font-family: poppins;
-    font-size: 24px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
-    border-color:#7b513a ;
-    border:solid;
-    border-radius: 29px;
-    background: #908d8d;
-
-
-
+    text-shadow: 5px 4px 4px rgba(0,0,0,0.39);
+    margin: 18px;
 }
 
 

@@ -2,18 +2,19 @@
     display: flex;
     display: inline ;
     width: 80%;
-    
+    align-items: center;
+    justify-content: center;
 
     .imgGaleria{
         width: 250px;
         height: 250px;
         object-fit: cover;
         transition: 0.3s ease-in-out;
-        border: solid 1px blue;
-
-
+        border: solid 1px rgb(1, 1, 1);
+        align-items: center;
+        justify-content: center;
         &.imgGaleria:hover{
-            transform: scale(1.8);
+            transform: scale(1.2);
             filter: opacity(4);
         }
 
@@ -47,10 +48,8 @@
             object-fit: cover;
             transition: 0.3s ease-in-out;
             border: solid 1px blue;
-    
-    
             &.imgGaleria:hover{
-                transform: scale(1.8);
+                transform: scale(1.2);
                 filter: opacity(4);
             }
     

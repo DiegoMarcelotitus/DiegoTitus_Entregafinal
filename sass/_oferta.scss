@@ -1,35 +1,31 @@
 
 .oferta{
-    width: 80%;
     width: 250px;
         height: 250px;
         text-align: center;
         color:rgb(5, 5, 5);
-        padding: 38px;
         border-radius: 2px;
         border: solid;
-        border-color: rgb(101, 31, 31);
-        font-family: poppins;
-        border-color:#7b513a ;
-        border:solid;
-        border-radius: 29px;
-        background: #908d8d;
-    
+        text-shadow: 5px 4px 4px rgba(0,0,0,0.39);
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
 }
 @media(max-width:699px){
-    .ofertadiv{
-        display: row;
-        grid-template-columns: repeat(2, 1fr);
-    
+    .ofertaConteiner{
+        grid-template-columns: repeat(2, 30%);
+        justify-content: center;
+        align-items: center;
     }
     
 }
 
 
 @media(min-width:700px){
-    .ofertadiv{
+    .ofertaConteiner{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    
-    }
+        grid-template-columns: repeat(2, 30%);
+        align-items: center;
+        justify-content: center;
+}
 }
